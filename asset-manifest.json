@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ironbark/static/css/main.e6c13ad2.css",
-    "main.js": "/ironbark/static/js/main.8d69d5bd.js",
+    "main.css": "/ironbark/static/css/main.1d7a360a.css",
+    "main.js": "/ironbark/static/js/main.3af7d351.js",
     "static/js/453.94c68391.chunk.js": "/ironbark/static/js/453.94c68391.chunk.js",
     "index.html": "/ironbark/index.html",
-    "main.e6c13ad2.css.map": "/ironbark/static/css/main.e6c13ad2.css.map",
-    "main.8d69d5bd.js.map": "/ironbark/static/js/main.8d69d5bd.js.map",
+    "main.1d7a360a.css.map": "/ironbark/static/css/main.1d7a360a.css.map",
+    "main.3af7d351.js.map": "/ironbark/static/js/main.3af7d351.js.map",
     "453.94c68391.chunk.js.map": "/ironbark/static/js/453.94c68391.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.8d69d5bd.js"
+    "static/css/main.1d7a360a.css",
+    "static/js/main.3af7d351.js"
   ]
 }
