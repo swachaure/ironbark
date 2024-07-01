@@ -10,9 +10,9 @@ const App = () => {
   const [loadingStatus, setLoadingStatus] = useState({ data1: 'loading', data2: 'loading' });
   const [filters, setFilters] = useState([]);
 
-  const fetchData = async (url, setData, dataKey) => { //async makes a function return a promise
+  const fetchData = async (url, setData, dataKey) => { // async makes a function return a promise
     try {
-      const response = await axios.get(`${process.env.PUBLIC_URL}${path}`);   //await makes async function wait for the promise
+      const response = await axios.get(`${process.env.PUBLIC_URL}${url}`);   // Fixed: Use `url` parameter directly
       setData(response.data);
       setLoadingStatus(prevState => ({ ...prevState, [dataKey]: 'success' }));
     } catch (error) {
